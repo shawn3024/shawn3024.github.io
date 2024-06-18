@@ -79,15 +79,27 @@ nav {
     align-items: center;
 }
 
-.pannel {
+.panel {
+    /* Hi */
+}
+
+.panel a {
     background-color: rgba(30, 27, 27, 0.496);
     /* background-color: rgba(255, 0, 0, 0.496);  */
     border-radius: 15%;
     width: 25%;
     height: 400px;
-    /* float: right; */
     margin: 2%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
 }
+
+.pannel h3 {
+}
+
+
 
 #navbar-placeholder {
     height: 60px;
