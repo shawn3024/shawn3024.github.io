@@ -5,28 +5,28 @@
         <link href="../static/styles.css" rel="stylesheet">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Shawn Nordstrom {% block title %}{% endblock %}</title>
+        <title>Contact - Shawn Nordstrom</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
         <div class="header">
-            <a style="text-decoration: none; color: white" href="/"><h1>Shawn Nordstrom</h1>
+            <a style="text-decoration: none; color: white" href="index.html"><h1>Shawn Nordstrom</h1>
             <h2>Student at Yale University</h2></a>
         </div>    
         
         <nav id="navbar">
             <ul>
-                <a class="button" href="/">Home</a>
-                <a class="button" href="/bio">Bio</a>
-                <a class="button" href="/publications">Publications</a>
-                <a class="button" href="/contact">Contact</a>
+                <a class="button" href="index.html">Home</a>
+                <a class="button" href="bio.html">Bio</a>
+                <a class="button" href="publications.html">Publications</a>
+                <a class="button" href="contact.html">Contact</a>
                 <a class="icon" href="https://github.com/shawnnordstrom"><i class="fa fa-github-square"></i></a>
                 <a class="icon" href="https://www.linkedin.com/in/shawn-nordstrom-304049244/"><i class="fa fa-linkedin-square"></i></a>
             </ul>
         </nav>
-        <main>{% block main %}{% endblock %}</main>
+        <main></main>
         <div style="color: transparent;">
             <p>The background-image scrolls with the page. Try to scroll down.</p>
             <p>The background-image scrolls with the page. Try to scroll down.</p>
@@ -114,6 +114,6 @@
         </div>
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+        <script src="static/js/script.js"></script>
     </body>
 </html>
